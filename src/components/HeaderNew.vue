@@ -10,11 +10,14 @@
 
 import myTitle from './Title.vue';
 
+
+
 export default {
   name: 'HeaderNew',
 
   components: {
-    myTitle
+    myTitle,
+  
   }
 }
 </script>
@@ -22,12 +25,12 @@ export default {
 <style>
 
   header{
-    height: 80px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-content: center;
+    height: 100px;
     color: aliceblue;
-    background-color: rgb(177, 89, 89);
+    background-color: #001d4c;
   }
 
 </style>
