@@ -1,17 +1,23 @@
 <template>
   <div>
     <HeaderNew />
+    <MyMain />
+    <MyFooter />
   </div>
 </template>
 
 <script>
 
 import HeaderNew from './components/HeaderNew.vue';
+import MyMain from './components/MyMain.vue';
+import MyFooter from './components/MyFooter.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderNew,
+    MyMain,
+    MyFooter,
   }
 }
 /*
