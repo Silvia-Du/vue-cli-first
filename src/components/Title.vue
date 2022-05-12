@@ -1,12 +1,14 @@
 <template>
+
   
-  <main></main>
+    <h1>La mia prima app con Vue CLI!</h1>
+
 
 </template>
 
 <script>
 export default {
-  name: 'MyMain'
+  name: 'myTitle'
 }
 </script>
 

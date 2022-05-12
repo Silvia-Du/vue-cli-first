@@ -1,23 +1,18 @@
 <template>
   <div>
     <HeaderNew />
-    <MyMain />
-    <MyFooter />
   </div>
 </template>
 
 <script>
 
 import HeaderNew from './components/HeaderNew.vue';
-import MyMain from './components/MyMain.vue';
-import MyFooter from './components/MyFooter.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HeaderNew,
-    MyMain,
-    MyFooter,
+    HeaderNew
   }
 }
 /*
@@ -30,5 +25,12 @@ Creare un secondo componente Hero, che visualizza un jumbotron.
 </script>
 
 <style lang="scss">
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 </style>
