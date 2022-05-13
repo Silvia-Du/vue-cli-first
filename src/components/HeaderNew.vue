@@ -1,28 +1,28 @@
 <template>
 
   <header>
-    <myTitle />
+    <MyTitle />
   </header>
 
 </template>
 
 <script>
 
-import myTitle from './Title.vue';
 
+import MyTitle from './MyTitle.vue'
 
 
 export default {
   name: 'HeaderNew',
 
   components: {
-    myTitle,
+   MyTitle,
   
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 
   header{
     display: flex;

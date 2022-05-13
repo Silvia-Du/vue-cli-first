@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderNew />
-    <myHero />
+    <MyHero />
 
   </div>
 </template>
@@ -9,13 +9,14 @@
 <script>
 
 import HeaderNew from './components/HeaderNew.vue';
-import myHero from './components/myHero.vue';
+
+import MyHero from './components/MyHero.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderNew,
-    myHero
+    MyHero,
   }
 }
 
